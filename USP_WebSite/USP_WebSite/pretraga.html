@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/filter_style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/filter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+</head>
+
+<body style="text-align: center; background: url('images/banner.jpg');">
+
+    <h1 style="text-align: center; color: white;">Odaberite Vaš Univerzitet</h1>
+
+    <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+    <div style=" margin: auto;" id="divdr">
+        <select id="drzava">
+            <option value="0">Odaberite državu</option>
+            <option value="1">Nemačka</option>
+            <option value="2">Austrija</option>
+            <option value="3">Italija</option>
+            <option value="4">Švedska</option>
+        </select>
+    </div>
+    <br>
+
+    <button onclick="prikazGrada()" class="btn-choose"> Potvrdi državu </button>
+
+    <br> <br>
+
+    <div style="margin: auto;" id="divgrad">
+        <select name="" id="grad">
+            <option value="">Odaberite grad</option>
+        </select>
+    </div>
+    <br>
+
+    <button class="btn-choose"> Potvrdi grad </button>
+
+    <br> <br>
+
+    <div style="margin: auto;" id="divpro">
+        <select id="oblasti">
+            <option value="1">Medicina</option>
+            <option value="2">IT tehnologije</option>
+            <option value="3">Umetnost</option>
+            <option value="4">Matematika</option>
+        </select>
+    </div>
+
+
+    <div style=" margin: auto;">
+        <h4 style="color: white;">Odaberite donju cenu školarine</h4>
+        <input type="number" class="num">
+    </div>
+
+    <div style=" margin: auto;">
+        <h4 style="color: white;">Odaberite gornju cenu školarine</h4>
+        <input type="number" class="num">
+    </div>
+
+    <div style=" margin: auto; color: white;">
+        <h4 style="color: white;">Mogućnost stipendiranja</h4>
+        <input type="radio" name="rad" id=""> Da
+        <input type="radio" name="rad" id=""> Ne
+        <input type="radio" name="rad" id=""> Svejedno
+    </div>
+    <br>
+    <form action="Tabela.html">
+        <button class="btn-choose" type="submit"> Pretrazi </button>
+    </form>
+
+</body>
+
+</html>

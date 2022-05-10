@@ -1,0 +1,56 @@
+  .btn-choose{
+      background-color:  rgb(3, 65, 65);
+      border-radius: 7px;
+      border: 0.5px solid white;
+      width: 250px;
+      height: 40px;
+      color:#fff;
+      font-family: Arial;
+  }
+
+  .btn-choose:hover {
+    background-color: rgb(3, 50, 55);
+    right: 0px;
+    cursor: pointer;
+}
+
+  #divgrad select, #divdr select, #divpro select{
+    background-color: rgb(3, 65, 65);
+    color:#fff;
+    font-family: Arial;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+  }
+
+  
+  #divgrad select option, #divgrad select option, #divpro select option{
+    background-color: rgb(3, 65, 65);
+    color:#fff;
+    font-family: Arial;
+    
+    text-align: center;
+    font-size: larger;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .num{
+    background-color: rgb(3, 65, 65);
+    color:#fff;
+    font-family: Arial;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+  }
+
+  h4{
+    color: white;
+    font-size: 18px;
+  }
+
+  input[type = "radio"] {
+   outline-color: rgb(3, 65, 65);
+  }
